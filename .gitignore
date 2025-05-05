@@ -1,0 +1,8 @@
+# JavaScript stuff
+node_modules
+dist
+
+# Editor stuff
+.vscode
+.idea
+.DS_Store
