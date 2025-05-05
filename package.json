@@ -8,7 +8,7 @@
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "clean": "rm -rf dist/",
-    "deploy": "git add dist -f && git commit -m \"Deployment commit\" && git subtree push --prefix dist origin gh-pages && git checkout main"
+    "deploy": "git checkout gh-pages && git merge main --no-edit && webpack --config webpack.prod.js && git add dist -f && git commit -m \"Deployment commit\" && git subtree push --prefix dist origin gh-pages && git checkout main"
   },
   "keywords": [],
   "author": "",
