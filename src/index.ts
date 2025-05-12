@@ -1,4 +1,4 @@
-import { greeting } from './greeting';
-import './styles.css';
+import { greeting } from "./greeting";
+import "./styles.css";
 
 console.log(greeting);

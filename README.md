@@ -5,8 +5,10 @@ This is a template for using webpack with Typescript, HTML, and CSS to deploy to
 Use this if you are not using React, Vue, or another framework.
 
 ## Features
+
 - ESM modules
 - ESLint - scripts, styles, markdown linter
+- Prettier - formatting
 
 ## Github Template
 
@@ -21,4 +23,5 @@ This is a template repo. Click the green [use this template](https://github.com/
 - start - starts dev server
 - build - generates dist bundle
 - clean - delete dist folder
+- format - use Prettier to format code
 - deploy - build and deploy to GitHub Pages
